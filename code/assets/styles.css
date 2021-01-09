@@ -84,6 +84,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  border-bottom: 1px solid #eee;
 }
 
 .imageSection img {
@@ -119,6 +120,8 @@ body {
   box-shadow: 0 3px 5px rgba(0,0,0,.2);
 }
 
-.imageSection div:first-child {
+.imageSectionText {
   padding: 150px;
 }
+
+/* SECTION #03 */
