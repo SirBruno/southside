@@ -161,3 +161,35 @@ body {
 .callToActionInner div:nth-child(2) {
   text-align: center;
 }
+
+/* SECTION #05 */
+
+.logoSection {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1700px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.logoSection h2 {
+  font-size: 100px;
+  margin: 0;
+}
+
+.logoSection p {
+  font-size: 20px;
+  color: #6a6a6a;
+  margin: 20px 0 0 0;
+}
+
+.logoCol img {
+  height: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.logoCol {
+  text-align: center;
+}
