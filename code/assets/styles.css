@@ -193,3 +193,66 @@ body {
 .logoCol {
   text-align: center;
 }
+
+/* SECTION #06 */
+
+.services {
+  height: 100vh;
+  border-top: 1px solid #eee;
+  display: grid;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.servicesInner {
+  width: 1700px;
+  margin: 0 auto;
+}
+
+.servicesInner h2 {
+  font-size: 70px;
+  margin: 0;
+}
+
+.servicesInner p {
+  font-size: 20px;
+  color: #6a6a6a;
+  margin: 10px 0 0 0;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 70px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.servicesGrid:last-child {
+  margin: 0;
+  border: none;
+}
+
+.servicesGrid div {
+  text-align: center;
+  padding: 60px;
+  border-right: 1px solid #e2e2e2;
+}
+
+.servicesGrid div:last-child {
+  border: none;
+}
+
+.servicesGrid img {
+  width: 70px;
+  height: 70px;
+}
+
+.servicesGrid h3 {
+  font-size: 26px;
+  margin: 30px 0 0 0;
+}
+
+.servicesGrid p {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+}
