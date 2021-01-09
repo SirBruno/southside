@@ -124,4 +124,40 @@ body {
   padding: 150px;
 }
 
-/* SECTION #03 */
+/* SECTION #04 */
+
+.callToAction {
+  background: url("./images/sections/muhammadtaha-ibrahim-ma-aji-OO3IHgN9gBs-unsplash.jpg");
+  background-position: center;
+}
+
+.callToActionInner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1700px;
+  margin: 0 auto;
+  align-items: center;
+  height: 500px;
+}
+
+.callToActionInner h2 {
+  font-size: 100px;
+  color: #fff;
+  margin: 0;
+}
+
+.callToActionInner button {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  font-size: 30px;
+  width: 312px;
+  height: 84px;
+  font-weight: bold;
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.callToActionInner div:nth-child(2) {
+  text-align: center;
+}
