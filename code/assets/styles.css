@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background: #000;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.logo {
+  height: 35px;
+}
+
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 0;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #fff;
+  opacity: .6;
+  margin-right: 31px;
+}
+
+.navLinks a:last-child {
+  margin: 0;
+}
+
+.headerBottom h1 {
+  color: #fff;
+  font-size: 100px;
+  margin: 0;
+}
+
+.headerBottom p {
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+  opacity: .6;
+}
+
+.headerBottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.headerBtn {
+  background: #F2600C;
+  width: 312px;
+  height: 84px;
+  font-size: 30px;
+  border: none;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 86px;
+  color: #fff;
+}
+
+.headerInner {
+  width: 1700px;
+  margin: 0 auto;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 91px 1fr;
+}
+
+.headerMain {
+  background: url("../assets/images/sections/header-cover.jpg");
+  background-size: cover;
+  background-position: center;
+}
