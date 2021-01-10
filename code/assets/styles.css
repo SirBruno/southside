@@ -340,3 +340,36 @@ footer section a {
 footer section div:last-child i {
   margin-right: 10px;
 }
+
+/* HOVER EFFECTS */
+
+.navLinks a:hover {
+  opacity: 1;
+  transition: .3s;
+}
+
+.headerBtn:hover {
+  background: #fff;
+  color: #000;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.sectionBtn:hover {
+  background: #000;
+  color: #fff;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.callToActionInner button:hover {
+  background: #fff;
+  color: #000;
+  transition: .3s;
+  cursor: pointer;
+}
+
+footer a:hover {
+  color: #fff;
+  transition: .3s;
+}
