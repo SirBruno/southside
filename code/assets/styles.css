@@ -373,3 +373,30 @@ footer a:hover {
   color: #fff;
   transition: .3s;
 }
+
+/* ABOUT US #01 */
+
+.headerBlack {
+  background: #000;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.headerBlackInner {
+  width: 1700px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 20px 0;
+}
+
+.headerBlackInner button {
+  width: 175px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 100px;
+  background: #F2600C;
+  color: #fff;
+}
